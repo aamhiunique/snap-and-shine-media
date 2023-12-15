@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/snap-and-shine-media/static/css/main.93a0497a.css",
+    "main.js": "/snap-and-shine-media/static/js/main.65bbb554.js",
+    "static/js/787.d77b5bc7.chunk.js": "/snap-and-shine-media/static/js/787.d77b5bc7.chunk.js",
+    "index.html": "/snap-and-shine-media/index.html",
+    "main.93a0497a.css.map": "/snap-and-shine-media/static/css/main.93a0497a.css.map",
+    "main.65bbb554.js.map": "/snap-and-shine-media/static/js/main.65bbb554.js.map",
+    "787.d77b5bc7.chunk.js.map": "/snap-and-shine-media/static/js/787.d77b5bc7.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.93a0497a.css",
+    "static/js/main.65bbb554.js"
+  ]
+}
