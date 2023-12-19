@@ -1,15 +1,17 @@
 {
   "files": {
     "main.css": "/snap-and-shine-media/static/css/main.93a0497a.css",
-    "main.js": "/snap-and-shine-media/static/js/main.65bbb554.js",
+    "main.js": "/snap-and-shine-media/static/js/main.a45a2da9.js",
     "static/js/787.d77b5bc7.chunk.js": "/snap-and-shine-media/static/js/787.d77b5bc7.chunk.js",
+    "static/media/4.png": "/snap-and-shine-media/static/media/4.a2e0c36ac88d1c9144f1.png",
+    "static/media/Media.png": "/snap-and-shine-media/static/media/Media.b8ed4abe4ac026300c10.png",
     "index.html": "/snap-and-shine-media/index.html",
     "main.93a0497a.css.map": "/snap-and-shine-media/static/css/main.93a0497a.css.map",
-    "main.65bbb554.js.map": "/snap-and-shine-media/static/js/main.65bbb554.js.map",
+    "main.a45a2da9.js.map": "/snap-and-shine-media/static/js/main.a45a2da9.js.map",
     "787.d77b5bc7.chunk.js.map": "/snap-and-shine-media/static/js/787.d77b5bc7.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.93a0497a.css",
-    "static/js/main.65bbb554.js"
+    "static/js/main.a45a2da9.js"
   ]
 }
