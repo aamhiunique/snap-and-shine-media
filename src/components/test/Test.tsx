@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 /*
   This example requires Tailwind CSS v2.0+ 
   
@@ -16,7 +17,7 @@
 */
 import { Fragment, SVGProps } from "react";
 import { Popover, Transition } from "@headlessui/react";
-import { AnnotationIcon, ChatAlt2Icon, ChatAltIcon, DocumentReportIcon, HeartIcon, InboxIcon, MenuIcon, PencilAltIcon, QuestionMarkCircleIcon, ReplyIcon, SparklesIcon, TrashIcon, UsersIcon, XIcon } from "@heroicons/react/outline";
+import { AnnotationIcon, ChatAltIcon, DocumentReportIcon, HeartIcon, InboxIcon, MenuIcon, PencilAltIcon, QuestionMarkCircleIcon, ReplyIcon, SparklesIcon, TrashIcon, UsersIcon, XIcon } from "@heroicons/react/outline";
 import { ChevronDownIcon } from "@heroicons/react/solid";
 import { JSX } from "react/jsx-runtime";
 import logo from "../../assets/Media.png";
@@ -45,51 +46,25 @@ const services = [
 ];
 const features = [
   {
-    name: "Unlimited Inboxes",
-    description: "Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.",
+    name: "Product Shoot",
+    description: "Transforming products into compelling stories is our forte. Our expert team crafts visually stunning product shoots that resonate, leaving a lasting impression on your audience.",
     icon: InboxIcon,
   },
   {
-    name: "Manage Team Members",
-    description: "Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.",
+    name: "Reels",
+    description: "In a fast-paced world, attention is fleeting. Our team excels in crafting engaging and dynamic Instagram reels that stop the scroll and keep your audience hooked.",
     icon: UsersIcon,
   },
   {
-    name: "Spam Report",
-    description: "Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.",
+    name: "Influencer Marketing",
+    description: "We believe in the power of partnerships. Our strategic influencer marketing connects your brand with the right voices, ensuring authentic storytelling that resonates with your audience.",
     icon: TrashIcon,
-  },
-  {
-    name: "Compose in Markdown",
-    description: "Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.",
-    icon: PencilAltIcon,
-  },
-  {
-    name: "Team Reporting",
-    description: "Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.",
-    icon: DocumentReportIcon,
-  },
-  {
-    name: "Saved Replies",
-    description: "Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.",
-    icon: ReplyIcon,
-  },
-  {
-    name: "Email Commenting",
-    description: "Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.",
-    icon: ChatAltIcon,
-  },
-  {
-    name: "Connect with Customers",
-    description: "Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.",
-    icon: HeartIcon,
   },
 ];
 const metrics = [
-  { id: 1, stat: "8K+", emphasis: "Companies", rest: "use laoreet amet lacus nibh integer quis." },
-  { id: 2, stat: "25K+", emphasis: "Countries around the globe", rest: "lacus nibh integer quis." },
-  { id: 3, stat: "98%", emphasis: "Customer satisfaction", rest: "laoreet amet lacus nibh integer quis." },
-  { id: 4, stat: "12M+", emphasis: "Issues resolved", rest: "lacus nibh integer quis." },
+  { id: 1, stat: "Quality meets Affordability", emphasis: "We", rest: "offer top-notch content creation without breaking the bank." },
+  { id: 2, stat: "Tailored Solutions", emphasis: "Every project is unique.", rest: "We customize our services to align with your brand's voice and vision" },
+  { id: 3, stat: "Direct Collaboration", emphasis: "Your satisfaction is our priority.", rest: "We work closely with you, ensuring your ideas are brought to life seamlessly" },
 ];
 const footerNavigation = {
   services: [
@@ -189,7 +164,7 @@ export default function Test() {
             <>
               <div className="flex justify-between items-center max-w-7xl mx-auto px-4 py-6 sm:px-6 md:justify-start md:space-x-10 lg:px-8">
                 <div className="flex justify-start lg:w-0 lg:flex-1">
-                  <a href="#">
+                  <a href="">
                     <span className="sr-only">Workflow</span>
                     <img className="h-8 w-auto sm:h-10" src={logo} alt="" />
                   </a>
@@ -232,18 +207,18 @@ export default function Test() {
                     )}
                   </Popover>
 
-                  <a href="#" className="text-base font-medium text-gray-500 hover:text-gray-900">
+                  <a href="" className="text-base font-medium text-gray-500 hover:text-gray-900">
                     Pricing
                   </a>
-                  <a href="#" className="text-base font-medium text-gray-500 hover:text-gray-900">
+                  <a href="" className="text-base font-medium text-gray-500 hover:text-gray-900">
                     Partners
                   </a>
-                  <a href="#" className="text-base font-medium text-gray-500 hover:text-gray-900">
+                  <a href="" className="text-base font-medium text-gray-500 hover:text-gray-900">
                     Company
                   </a>
                 </Popover.Group>
                 <div className="hidden md:flex items-center justify-end md:flex-1 lg:w-0">
-                  <a href="#" className="ml-8 whitespace-nowrap inline-flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-gradient-to-r from-purple-600 to-indigo-600 hover:from-purple-700 hover:to-indigo-700">
+                  <a href="" className="ml-8 whitespace-nowrap inline-flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-gradient-to-r from-purple-600 to-indigo-600 hover:from-purple-700 hover:to-indigo-700">
                     Contact
                   </a>
                 </div>
@@ -279,19 +254,19 @@ export default function Test() {
                     </div>
                     <div className="py-6 px-5">
                       <div className="grid grid-cols-2 gap-4">
-                        <a href="#" className="text-base font-medium text-gray-900 hover:text-gray-700">
+                        <a href="" className="text-base font-medium text-gray-900 hover:text-gray-700">
                           Pricing
                         </a>
-                        <a href="#" className="text-base font-medium text-gray-900 hover:text-gray-700">
+                        <a href="" className="text-base font-medium text-gray-900 hover:text-gray-700">
                           Partners
                         </a>
-                        <a href="#" className="text-base font-medium text-gray-900 hover:text-gray-700">
+                        <a href="" className="text-base font-medium text-gray-900 hover:text-gray-700">
                           Company
                         </a>
                       </div>
                       <div className="mt-6">
                         <p className="mt-6 text-center text-base font-medium text-gray-500">
-                          <a href="#" className="text-gray-900">
+                          <a href="" className="text-gray-900">
                             Contact
                           </a>
                         </p>
@@ -316,16 +291,18 @@ export default function Test() {
               </div>
               <div className="relative px-4 py-16 sm:px-6 sm:py-24 lg:py-32 lg:px-8">
                 <h1 className="text-center text-4xl font-extrabold tracking-tight sm:text-5xl lg:text-6xl">
-                  <span className="block text-white">Take control of your</span>
-                  <span className="block text-indigo-200">customer support</span>
+                  <span className="block text-white">Snap & Shine Media</span>
+                  <span className="block text-indigo-200">Illuminate Your Brand's Story</span>
                 </h1>
-                <p className="mt-6 max-w-lg mx-auto text-center text-xl text-indigo-200 sm:max-w-3xl">Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat fugiat aliqua.</p>
+                <p className="mt-6 max-w-lg mx-auto text-center text-xl text-indigo-200 sm:max-w-3xl">At Snap & Shine Media, we specialize in bringing your brand to life through captivating content creation. We understand the pulse of today's digital landscape, where visual storytelling reigns supreme. From striking product shoots to magnetic Instagram reels and influential marketing strategies, we're dedicated to enhancing your brand's narrative.
+
+</p>
                 <div className="mt-10 max-w-sm mx-auto sm:max-w-none sm:flex sm:justify-center">
                   <div className="space-y-4 sm:space-y-0 sm:mx-auto sm:inline-grid sm:grid-cols-2 sm:gap-5">
-                    <a href="#" className="flex items-center justify-center px-4 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-indigo-700 bg-white hover:bg-indigo-50 sm:px-8">
+                    <a href="" className="flex items-center justify-center px-4 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-indigo-700 bg-white hover:bg-indigo-50 sm:px-8">
                       Get started
                     </a>
-                    <a href="#" className="flex items-center justify-center px-4 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-indigo-500 bg-opacity-60 hover:bg-opacity-70 sm:px-8">
+                    <a href="" className="flex items-center justify-center px-4 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-indigo-500 bg-opacity-60 hover:bg-opacity-70 sm:px-8">
                       Live demo
                     </a>
                   </div>
@@ -372,29 +349,15 @@ export default function Test() {
                     </span>
                   </div>
                   <div className="mt-6">
-                    <h2 className="text-3xl font-extrabold tracking-tight text-gray-900">Stay on top of customer support</h2>
-                    <p className="mt-4 text-lg text-gray-500">Semper curabitur ullamcorper posuere nunc sed. Ornare iaculis bibendum malesuada faucibus lacinia porttitor. Pulvinar laoreet sagittis viverra duis. In venenatis sem arcu pretium pharetra at. Lectus viverra dui tellus ornare pharetra.</p>
+                    <h2 className="text-3xl font-extrabold tracking-tight text-gray-900">Let's Elevate Your Brand:</h2>
+                    <p className="mt-4 text-lg text-gray-500">Join hands with Snap&Shine Media and unlock the potential of your brand. Captivate your audience, amplify your message, and watch your brand shine in the digital sphere. Together, let's create content that leaves a lasting impact.</p>
+                    <p className="mt-4 text-lg text-gray-500">Ready to take the next step? Contact us today to discuss how we can transform your brand's storytelling journey.</p>
                     <div className="mt-6">
-                      <a href="#" className="inline-flex px-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-gradient-to-r from-purple-600 to-indigo-600 hover:from-purple-700 hover:to-indigo-700">
+                      <a href="" className="inline-flex px-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-gradient-to-r from-purple-600 to-indigo-600 hover:from-purple-700 hover:to-indigo-700">
                         Get started
                       </a>
                     </div>
                   </div>
-                </div>
-                <div className="mt-8 border-t border-gray-200 pt-6">
-                  <blockquote>
-                    <div>
-                      <p className="text-base text-gray-500">&ldquo;Cras velit quis eros eget rhoncus lacus ultrices sed diam. Sit orci risus aenean curabitur donec aliquet. Mi venenatis in euismod ut.&rdquo;</p>
-                    </div>
-                    <footer className="mt-3">
-                      <div className="flex items-center space-x-3">
-                        <div className="flex-shrink-0">
-                          <img className="h-6 w-6 rounded-full" src="https://images.unsplash.com/photo-1509783236416-c9ad59bae472?ixlib=rb-=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80" alt="" />
-                        </div>
-                        <div className="text-base font-medium text-gray-700">Marcia Hill, Digital Marketing Manager</div>
-                      </div>
-                    </footer>
-                  </blockquote>
                 </div>
               </div>
               <div className="mt-12 sm:mt-16 lg:mt-0">
@@ -404,41 +367,15 @@ export default function Test() {
               </div>
             </div>
           </div>
-          <div className="mt-24">
-            <div className="lg:mx-auto lg:max-w-7xl lg:px-8 lg:grid lg:grid-cols-2 lg:grid-flow-col-dense lg:gap-24">
-              <div className="px-4 max-w-xl mx-auto sm:px-6 lg:py-32 lg:max-w-none lg:mx-0 lg:px-0 lg:col-start-2">
-                <div>
-                  <div>
-                    <span className="h-12 w-12 rounded-md flex items-center justify-center bg-gradient-to-r from-purple-600 to-indigo-600">
-                      <SparklesIcon className="h-6 w-6 text-white" aria-hidden="true" />
-                    </span>
-                  </div>
-                  <div className="mt-6">
-                    <h2 className="text-3xl font-extrabold tracking-tight text-gray-900">Better understand your customers</h2>
-                    <p className="mt-4 text-lg text-gray-500">Semper curabitur ullamcorper posuere nunc sed. Ornare iaculis bibendum malesuada faucibus lacinia porttitor. Pulvinar laoreet sagittis viverra duis. In venenatis sem arcu pretium pharetra at. Lectus viverra dui tellus ornare pharetra.</p>
-                    <div className="mt-6">
-                      <a href="#" className="inline-flex px-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-gradient-to-r from-purple-600 to-indigo-600 hover:from-purple-700 hover:to-indigo-700">
-                        Get started
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="mt-12 sm:mt-16 lg:mt-0 lg:col-start-1">
-                <div className="pr-4 -ml-48 sm:pr-6 md:-ml-16 lg:px-0 lg:m-0 lg:relative lg:h-full">
-                  <img className="w-full rounded-xl shadow-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:right-0 lg:h-full lg:w-auto lg:max-w-none" src="https://tailwindui.com/img/component-images/inbox-app-screenshot-2.jpg" alt="Customer profile user interface" />
-                </div>
-              </div>
-            </div>
-          </div>
+          
         </div>
 
         {/* Gradient Feature Section */}
         <div className="bg-gradient-to-r from-purple-800 to-indigo-700">
           <div className="max-w-4xl mx-auto px-4 py-16 sm:px-6 sm:pt-20 sm:pb-24 lg:max-w-7xl lg:pt-24 lg:px-8">
-            <h2 className="text-3xl font-extrabold text-white tracking-tight">Inbox support built for efficiency</h2>
-            <p className="mt-4 max-w-3xl text-lg text-purple-200">Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis. Blandit aliquam sit nisl euismod mattis in.</p>
-            <div className="mt-12 grid grid-cols-1 gap-x-6 gap-y-12 sm:grid-cols-2 lg:mt-16 lg:grid-cols-4 lg:gap-x-8 lg:gap-y-16">
+            <h2 className="text-3xl font-extrabold text-white tracking-tight">Our Services</h2>
+            <p className="mt-4 text-lg text-purple-200">Discover a spectrum of creative brilliance with our tailored services at Snap&Shine Media. From mesmerizing product shoots to engaging Instagram reels and impactful influencer marketing, we craft content that elevates your brand's story, resonates with your audience, and leaves a lasting impression.</p>
+            <div className="mt-12 grid grid-cols-1 gap-x-6 gap-y-12 sm:grid-cols-2 lg:mt-16 lg:grid-cols-3 lg:gap-x-8 lg:gap-y-16">
               {features.map((feature) => (
                 <div key={feature.name}>
                   <div>
@@ -471,8 +408,8 @@ export default function Test() {
               <h2 className="text-sm font-semibold tracking-wide uppercase">
                 <span className="bg-gradient-to-r from-purple-300 to-indigo-300 bg-clip-text text-transparent">Valuable Metrics</span>
               </h2>
-              <p className="mt-3 text-3xl font-extrabold text-white">Get actionable data that will help grow your business</p>
-              <p className="mt-5 text-lg text-gray-300">Rhoncus sagittis risus arcu erat lectus bibendum. Ut in adipiscing quis in viverra tristique sem. Ornare feugiat viverra eleifend fusce orci in quis amet. Sit in et vitae tortor, massa. Dapibus laoreet amet lacus nibh integer quis. Eu vulputate diam sit tellus quis at.</p>
+              <p className="mt-3 text-3xl font-extrabold text-white">Why Snap&Shine Media</p>
+              <p className="mt-5 text-lg text-gray-300">Choose Snap&Shine Media for a fusion of creativity and affordability. We bring your vision to life through direct collaboration, ensuring every project shines with excellence. With us, experience content creation that not only meets but exceeds your expectations, illuminating your brand's journey in the digital world.</p>
               <div className="mt-12 grid grid-cols-1 gap-y-12 gap-x-6 sm:grid-cols-2">
                 {metrics.map((item) => (
                   <p key={item.id}>
@@ -495,10 +432,10 @@ export default function Test() {
               <span className="block bg-gradient-to-r from-purple-600 to-indigo-600 bg-clip-text text-transparent">Get in touch.</span>
             </h2>
             <div className="mt-6 space-y-4 sm:space-y-0 sm:flex sm:space-x-5">
-              <a href="#" className="flex items-center justify-center px-4 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-gradient-to-r from-purple-600 to-indigo-600 hover:from-purple-700 hover:to-indigo-700">
+              <a href="" className="flex items-center justify-center px-4 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-gradient-to-r from-purple-600 to-indigo-600 hover:from-purple-700 hover:to-indigo-700">
 View Work
               </a>
-              <a href="#" className="flex items-center justify-center px-4 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-indigo-800 bg-indigo-50 hover:bg-indigo-100">
+              <a href="" className="flex items-center justify-center px-4 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-indigo-800 bg-indigo-50 hover:bg-indigo-100">
                 Get started
               </a>
             </div>
