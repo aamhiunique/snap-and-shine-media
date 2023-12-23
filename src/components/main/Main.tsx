@@ -5,19 +5,26 @@ import Featuresection from '../featuresection/Featuresection'
 import Gradientfeaturesection from '../ourservices/Ourservices'
 import Whyus from '../whyus/Whyus'
 import Viewwork from '../viewwork/Viewwork'
+import Services from '../services/Services'
+import Header from '../header/Header'
+import Footer from '../footer/Footer'
 
 const Main = () => {
   return (
     <>
     <main>
-        {/* Hero section */}
-        <Herosection/>
+      <Header/>
+      {/* Hero section */}
+      <Herosection/>
 
         {/* Logo Cloud */}
         <Logo/>
 
+        {/* Services */}
+        <Services/>
+
         {/* Alternating Feature Sections */}
-        <Featuresection/> 
+        <Featuresection/>
 
         {/* Gradient Feature Section */}
         <Gradientfeaturesection/>
@@ -27,6 +34,9 @@ const Main = () => {
 
         {/* Stats section */}
         <Whyus/>
+
+        {/* Footer */}
+        <Footer/>
 
       </main>
     </>

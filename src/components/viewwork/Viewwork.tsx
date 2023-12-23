@@ -1,5 +1,5 @@
 import React from 'react'
-import Imgcarousel from '../old/imgCarousel/Imgcarousel'
+import Imgcarousel from '../imgCarousel/Imgcarousel'
 const posts = [
     {
         title: 'Product Shoot',
