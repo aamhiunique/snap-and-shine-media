@@ -3,6 +3,7 @@ import { Tab } from "@headlessui/react";
 import serviceOne from "../../assets/services/1.png";
 import serviceTwo from "../../assets/services/2.png";
 import serviceThree from "../../assets/services/3.png";
+import Imgcarousel from "../imgCarousel/Imgcarousel";
 
 const tabs = [
   {
@@ -80,7 +81,7 @@ export default function Services() {
                       </div>
                       <div className="lg:col-span-7">
                         <div className="aspect-w-2 aspect-h-1 rounded-lg bg-gray-100 overflow-hidden sm:aspect-w-5 sm:aspect-h-2">
-                          <img src={feature.imageSrc} alt={feature.imageAlt} className="object-center object-cover" />
+                          <Imgcarousel/>
                         </div>
                       </div>
                     </div>
