@@ -5,8 +5,8 @@ import React from 'react'
 
 const features = [
     {
-        name: "Product Shoot",
-        description: "Transforming products into compelling stories is our forte. Our expert team crafts visually stunning product shoots that resonate, leaving a lasting impression on your audience.",
+        name: "Brand Shoot",
+        description: "Transforming brands into compelling stories is our forte. Our expert team crafts visually stunning brand shoots that resonate, leaving a lasting impression on your audience.",
         icon: InboxIcon,
     },
     {
@@ -26,7 +26,7 @@ const Ourservices = () => {
             <div className="bg-gradient-to-r from-purple-800 to-indigo-700">
                 <div className="max-w-4xl mx-auto px-4 py-16 sm:px-6 sm:pt-20 sm:pb-24 lg:max-w-7xl lg:pt-24 lg:px-8">
                     <h2 className="text-3xl font-extrabold text-white tracking-tight">Our Services</h2>
-                    <p className="mt-4 text-lg text-purple-200">Discover a spectrum of creative brilliance with our tailored services at Snap&Shine Media. From mesmerizing product shoots to engaging Instagram reels and impactful influencer marketing, we craft content that elevates your brand's story, resonates with your audience, and leaves a lasting impression.</p>
+                    <p className="mt-4 text-lg text-purple-200">Discover a spectrum of creative brilliance with our tailored services at Snap&Shine Media. From mesmerizing brand shoots to engaging Instagram reels and impactful influencer marketing, we craft content that elevates your brand's story, resonates with your audience, and leaves a lasting impression.</p>
                     <div className="mt-12 grid grid-cols-1 gap-x-6 gap-y-12 sm:grid-cols-2 lg:mt-16 lg:grid-cols-3 lg:gap-x-8 lg:gap-y-16">
                         {features.map((feature) => (
                         <div key={feature.name}>

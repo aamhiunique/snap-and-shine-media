@@ -7,13 +7,13 @@ import Imgcarousel from "../imgCarousel/Imgcarousel";
 
 const tabs = [
   {
-    name: "Product Shoot",
+    name: "Brand Shoot",
     features: [
       {
-        name: "Product Shoot",
-        description: "Transforming Products into Stories! Captivating, high-quality product shoots that turn your items into captivating tales, ready to mesmerize your audience.",
+        name: "Brand Shoot",
+        description: "Transforming Brands into Stories! Captivating, high-quality brand shoots that turn your items into captivating tales, ready to mesmerize your audience.",
         imageSrc: serviceOne,
-        imageAlt: "Transforming Products into Stories! Captivating, high-quality product shoots that turn your items into captivating tales, ready to mesmerize your audience.",
+        imageAlt: "Transforming Brands into Stories! Captivating, high-quality brand shoots that turn your items into captivating tales, ready to mesmerize your audience.",
       },
     ],
   },
@@ -54,7 +54,7 @@ export default function Services() {
             <h2 id="features-heading" className="text-3xl font-extrabold tracking-tight text-gray-900 sm:text-4xl">
               Our Services
             </h2>
-            <p className="mt-4 text-gray-500">Unleash Your Brand's Charm! Elevate with captivating product shoots, engaging Instagram reels, and influential marketing. Let your brand stand out and captivate your audience effortlessly!</p>
+            <p className="mt-4 text-gray-500">Unleash Your Brand's Charm! Elevate with captivating brand shoots, engaging Instagram reels, and influential marketing. Let your brand stand out and captivate your audience effortlessly!</p>
           </div>
 
           <Tab.Group as="div" className="mt-4">

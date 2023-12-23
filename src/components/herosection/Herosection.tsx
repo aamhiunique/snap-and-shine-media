@@ -16,7 +16,7 @@ const Herosection = () => {
                   <span className="block text-white">Snap & Shine Media</span>
                   <span className="block text-indigo-200">Illuminate Your Brand's Story</span>
                 </h1>
-                <p className="mt-6 max-w-lg mx-auto text-center text-xl text-indigo-200 sm:max-w-3xl">At Snap & Shine Media, we specialize in bringing your brand to life through captivating content creation. We understand the pulse of today's digital landscape, where visual storytelling reigns supreme. From striking product shoots to magnetic Instagram reels and influential marketing strategies, we're dedicated to enhancing your brand's narrative.
+                <p className="mt-6 max-w-lg mx-auto text-center text-xl text-indigo-200 sm:max-w-3xl">At Snap & Shine Media, we specialize in bringing your brand to life through captivating content creation. We understand the pulse of today's digital landscape, where visual storytelling reigns supreme. From striking brand shoots to magnetic Instagram reels and influential marketing strategies, we're dedicated to enhancing your brand's narrative.
 
 </p>
                 <div className="mt-10 max-w-sm mx-auto sm:max-w-none sm:flex sm:justify-center">

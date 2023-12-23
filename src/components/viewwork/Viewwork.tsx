@@ -2,10 +2,10 @@ import React from 'react'
 import Imgcarousel from '../imgCarousel/Imgcarousel'
 const posts = [
     {
-        title: 'Product Shoot',
+        title: 'Brand Shoot',
         href: '#',
         category: { name: 'Photo Shoot', href: '#' },
-        description: 'Embark on a visual journey through our expertly curated product shoots. Witness how we transform ordinary items into captivating stories. Each image is meticulously crafted, capturing the essence of your product and translating it into visual brilliance that resonates with your audience.',
+        description: 'Embark on a visual journey through our expertly curated brand shoots. Witness how we transform ordinary items into captivating stories. Each image is meticulously crafted, capturing the essence of your brand and translating it into visual brilliance that resonates with your audience.',
         date: 'Mar 16, 2020',
         datetime: '2020-03-16',
         imageUrl: 'https://images.unsplash.com/photo-1496128858413-b36217c2ce36?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1679&q=80',

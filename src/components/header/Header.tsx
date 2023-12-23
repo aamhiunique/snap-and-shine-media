@@ -12,7 +12,7 @@ function classNames(...classes: string[]) {
   }
   const services = [
     {
-      name: "Product Shoot",
+      name: "Brand Shoot",
       description: "Get a better understanding of where your traffic is coming from.",
       href: "#",
       icon: InboxIcon,
