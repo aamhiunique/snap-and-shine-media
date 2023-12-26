@@ -1,6 +1,6 @@
 import { InboxIcon } from '@heroicons/react/outline'
 import React from 'react'
-import imgAppScreen from "../../assets/img-carousel/4.png";
+import imgAppScreen from "../../assets/products/3.png";
 const Featuresection = () => {
   return (
     <>

@@ -1,8 +1,8 @@
 /* eslint-disable jsx-a11y/img-redundant-alt */
 import { Carousel } from "@material-tailwind/react";
-import imgCarouselOne from "../../assets/img-carousel/4.png";
-import imgCarouselTwo from "../../assets/img-carousel/5.png";
-import imgCarouselThree from "../../assets/img-carousel/6.png";
+import imgCarouselOne from "../../assets/products/1.png";
+import imgCarouselTwo from "../../assets/products/2.png";
+import imgCarouselThree from "../../assets/products/3.png";
 
 export default function Imgcarousel() {
   return (
