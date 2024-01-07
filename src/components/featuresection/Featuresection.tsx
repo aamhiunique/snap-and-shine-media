@@ -1,7 +1,11 @@
 import { InboxIcon } from '@heroicons/react/outline'
 import React from 'react'
 import imgAppScreen from "../../assets/products/3.png";
+const apiUrl = process.env.REACT_APP_API_URL;
+
+
 const Featuresection = () => {
+
   return (
     <>
     <div className="relative pt-16 pb-32 overflow-hidden">
@@ -20,7 +24,7 @@ const Featuresection = () => {
                     <p className="mt-4 text-lg text-gray-500">Join hands with Snap&Shine Media and unlock the potential of your brand. Captivate your audience, amplify your message, and watch your brand shine in the digital sphere. Together, let's create content that leaves a lasting impact.</p>
                     <p className="mt-4 text-lg text-gray-500">Ready to take the next step? Contact us today to discuss how we can transform your brand's storytelling journey.</p>
                     <div className="mt-6">
-                      <a href="#" className="inline-flex px-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-gradient-to-r from-purple-600 to-indigo-600 hover:from-purple-700 hover:to-indigo-700">
+                      <a href={apiUrl} target='_blank' rel="noreferrer" className="inline-flex px-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-gradient-to-r from-purple-600 to-indigo-600 hover:from-purple-700 hover:to-indigo-700">
                         Get started
                       </a>
                     </div>

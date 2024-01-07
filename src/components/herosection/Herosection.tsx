@@ -1,6 +1,7 @@
 import React from 'react'
 import prod1 from '../../assets/products/2.png'
 const Herosection = () => {
+  const apiUrl = process.env.REACT_APP_API_URL;
   return (
     <>
     <div className="relative">
@@ -16,16 +17,16 @@ const Herosection = () => {
                   <span className="block text-white">Snap & Shine Media</span>
                   <span className="block text-indigo-200">Illuminate Your Brand's Story</span>
                 </h1>
-                <p className="mt-6 max-w-lg mx-auto text-center text-xl text-indigo-200 sm:max-w-3xl">At Snap & Shine Media, we specialize in bringing your brand to life through captivating content creation. We understand the pulse of today's digital landscape, where visual storytelling reigns supreme. From striking brand shoots to magnetic Instagram reels and influential marketing strategies, we're dedicated to enhancing your brand's narrative.
+                <p className="mt-6 max-w-lg mx-auto text-center text-xl text-white sm:max-w-3xl">At Snap & Shine Media, we specialize in bringing your brand to life through captivating content creation. We understand the pulse of today's digital landscape, where visual storytelling reigns supreme. From striking brand shoots to magnetic Instagram reels and influential marketing strategies, we're dedicated to enhancing your brand's narrative.
 
 </p>
                 <div className="mt-10 max-w-sm mx-auto sm:max-w-none sm:flex sm:justify-center">
                   <div className="space-y-4 sm:space-y-0 sm:mx-auto sm:inline-grid sm:grid-cols-2 sm:gap-5">
-                    <a href="" className="flex items-center justify-center px-4 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-indigo-700 bg-white hover:bg-indigo-50 sm:px-8">
+                    <a href={apiUrl} target='_blank' rel="noreferrer" className="flex items-center justify-center px-4 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-indigo-700 bg-white hover:bg-indigo-50 sm:px-8">
                       Get started
                     </a>
-                    <a href="" className="flex items-center justify-center px-4 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-indigo-500 bg-opacity-60 hover:bg-opacity-70 sm:px-8">
-                      Live demo
+                    <a href={apiUrl} target='_blank' rel="noreferrer" className="flex items-center justify-center px-4 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-indigo-500 bg-opacity-60 hover:bg-opacity-70 sm:px-8">
+                      Contact Us
                     </a>
                   </div>
                 </div>
